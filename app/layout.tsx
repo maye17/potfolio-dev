@@ -1,19 +1,23 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Mayerlin.dev | Portfolio",
   description: "Portfolio profesional de proyectos web",
 };
 
-type RootLayoutProps = {
+export default function RootLayout({
+  children,
+}: {
   children: React.ReactNode;
-};
-
-export default function RootLayout({ children }: RootLayoutProps) {
+}) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
