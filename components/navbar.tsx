@@ -2,44 +2,52 @@
 
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const locale = useLocale();
   const t = useTranslations("navbar");
+  const pathname = usePathname();
 
   const isSpanish = locale === "es";
   const label = isSpanish ? "EN" : "ES";
 
-  const homeHref = isSpanish ? "/" : "/en";
-  const projectsHref = isSpanish ? "/projects" : "/en/projects";
-  const contactHref = isSpanish ? "/#contacto" : "/en#contacto";
-  const nextLocaleHref = isSpanish ? "/en" : "/";
+  // 🔥 LIMPIA O AGREGA /en DINÁMICAMENTE
+  const getSwitchPath = () => {
+    if (isSpanish) {
+      // agregar /en
+      return `/en${pathname}`;
+    } else {
+      // quitar /en
+      return pathname.replace(/^\/en/, "") || "/";
+    }
+  };
 
   return (
     <header className="fixed left-0 top-0 z-50 w-full bg-black/80 backdrop-blur">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         
         {/* LOGO */}
-        <Link href={homeHref} className="text-xl font-bold text-white">
+        <Link href={isSpanish ? "/" : "/en"} className="text-xl font-bold text-white">
           Mayerlin.dev
         </Link>
 
         {/* NAV */}
         <div className="flex items-center gap-6">
           
-          <Link href={homeHref} className="text-sm font-medium text-white">
+          <Link href={isSpanish ? "/" : "/en"} className="text-sm font-medium text-white">
             {t("home")}
           </Link>
 
           <Link
-            href={projectsHref}
+            href={isSpanish ? "/projects" : "/en/projects"}
             className="text-sm font-medium text-white"
           >
             {t("projects")}
           </Link>
 
           <Link
-            href={contactHref}
+            href={isSpanish ? "/#contacto" : "/en#contacto"}
             className="text-sm font-medium text-white"
           >
             {t("contact")}
@@ -47,7 +55,7 @@ export default function Navbar() {
 
           {/* SWITCH IDIOMA */}
           <Link
-            href={nextLocaleHref}
+            href={getSwitchPath()}
             className="rounded-lg border border-white px-3 py-1 text-sm font-semibold text-white transition hover:bg-white hover:text-black"
           >
             {label}
