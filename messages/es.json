@@ -22,9 +22,28 @@
     "description": "Estoy disponible para oportunidades como desarrolladora web, frontend, full stack o product owner técnico.",
     "button": "Contactarme"
   },
-  "navbar": {
-    "home": "Inicio",
-    "projects": "Mis proyectos",
-    "contact": "Contacto"
+"navbar": {
+  "home": "Inicio",
+  "about": "Sobre mí",
+  "skills": "Habilidades",
+  "projects": "Mis proyectos",
+  "contact": "Contacto"
+},
+"about": {
+  "title": "Sobre mí",
+  "p1": "Cuento con más de 12 años de experiencia en IT, de los cuales 8 años han sido liderando proyectos end-to-end, coordinando equipos multidisciplinarios y asegurando entregas de alto impacto.",
+  "p2": "A lo largo de mi trayectoria he trabajado bajo metodologías ágiles como Scrum y Kanban, así como también en esquemas tradicionales cuando el contexto lo requiere.",
+  "p3": "He liderado más de 20 proyectos de desarrollo web y móvil, participando activamente en la planificación, definición de requerimientos, gestión de backlog, seguimiento de KPIs y coordinación con stakeholders.",
+  "p4": "Además, cuento con experiencia en integraciones de sistemas, migraciones tecnológicas y mejora continua de procesos, lo que me permite aportar una visión tanto estratégica como técnica.",
+  "p5": "Mi gestión ha generado un impacto positivo del 50% en la efectividad de las implementaciones y ha contribuido a la reducción del 5% en pérdidas de nuevos proyectos, optimizando procesos y mitigando riesgos de manera estratégica."
+},
+"skills": {
+  "title": "Habilidades",
+  "groups": {
+    "frontend": "Desarrollo Frontend",
+    "backend": "Desarrollo Backend",
+    "devops": "Infraestructura & DevOps"
   }
+
+}
 }

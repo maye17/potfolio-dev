@@ -30,7 +30,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           {project.title[locale]}
         </h3>
 
-        <p className="mb-4 text-gray-600">
+        <p className="mb-4 text-gray-100">
           {project.description[locale]}
         </p>
 

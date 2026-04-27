@@ -25,7 +25,7 @@ export const projects: Project[] = [
     },
     technologies: ["React", "Spring Boot", "MariaDB", "Docker", "JWT"],
     featured: true,
-    image: "/image/siso.png",
+    image: "/images/siso.png",
     demo: "https://demo.gadbizz.com.ar/",
     github: "#",
     features: {
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     },
     technologies: ["React", "TypeScript", "Firebase", "Tailwind"],
     featured: true,
-    image: "/image/kickingball.png",
+    image: "/images/kickingball.png",
     demo: "https://demo.kickingball.gadbizz.com.ar/",
     github: "#",
     features: {
@@ -91,7 +91,7 @@ export const projects: Project[] = [
     },
     technologies: ["WordPress", "WooCommerce", "PHP", "CSS", "JavaScript"],
     featured: true,
-    image: "/image/sistemapedidos.png",
+    image: "/images/sistemapedidos.png",
     demo: "#",
     github: "#",
     features: {
@@ -124,7 +124,7 @@ export const projects: Project[] = [
     },
     technologies: ["MariaDB", "Node.js", "CSS", "JavaScript"],
     featured: false,
-    image: "/image/sistemapedidos.png",
+    image: "/images/sistemapedidos.png",
     demo: "https://clickpedido.gadbizz.com.ar/",
     github: "#",
     features: {
@@ -157,7 +157,7 @@ export const projects: Project[] = [
     },
     technologies: ["HTML", "CSS", "JavaScript"],
     featured: false,
-    image: "/image/nilo.png",
+    image: "/images/nilo.png",
     demo: "https://somosnilo.com/",
     github: "#",
     features: {

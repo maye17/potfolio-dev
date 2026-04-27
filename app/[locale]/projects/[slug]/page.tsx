@@ -44,7 +44,7 @@ export default async function ProjectDetailPage({
 
         <h1 className="mb-4 text-4xl font-bold">{project.title[lang]}</h1>
 
-        <p className="mb-6 text-lg text-gray-600">
+        <p className="mb-6 text-lg text-gray-100">
           {project.description[lang]}
         </p>
 

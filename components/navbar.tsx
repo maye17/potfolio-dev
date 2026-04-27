@@ -38,6 +38,19 @@ export default function Navbar() {
           <Link href={isSpanish ? "/" : "/en"} className="text-sm font-medium text-white">
             {t("home")}
           </Link>
+          <Link
+            href={isSpanish ? "/#sobre-mi" : "/en#sobre-mi"}
+            className="text-sm font-medium text-white"
+          >
+            {t("about")}
+          </Link>
+            
+          <Link
+            href={isSpanish ? "/#habilidades" : "/en#habilidades"}
+            className="text-sm font-medium text-white"
+          >
+            {t("skills")}
+          </Link>
 
           <Link
             href={isSpanish ? "/projects" : "/en/projects"}
@@ -52,8 +65,6 @@ export default function Navbar() {
           >
             {t("contact")}
           </Link>
-
-          {/* SWITCH IDIOMA */}
           <Link
             href={getSwitchPath()}
             className="rounded-lg border border-white px-3 py-1 text-sm font-semibold text-white transition hover:bg-white hover:text-black"

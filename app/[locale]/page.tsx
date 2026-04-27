@@ -4,6 +4,8 @@ import Footer from "@/components/footer";
 import { projects } from "@/data/projects";
 import { FaWhatsapp } from "react-icons/fa";
 import { getTranslations } from "next-intl/server";
+import About from "@/components/about";
+import Skills from "@/components/skills";
 
 export default async function HomePage() {
   const tProjects = await getTranslations("projects");
@@ -14,13 +16,15 @@ export default async function HomePage() {
   return (
     <>
       <Hero />
+      <About />
+      <Skills />
 
       <section className="mx-auto max-w-6xl px-6 py-20">
         <h2 className="mb-4 text-3xl font-bold">
           {tProjects("featuredTitle")}
         </h2>
 
-        <p className="mb-10 max-w-2xl text-gray-600">
+        <p className="mb-10 max-w-2xl text-gray-100">
           {tProjects("featuredDescription")}
         </p>
 

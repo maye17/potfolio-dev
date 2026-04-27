@@ -31,7 +31,7 @@ export default function Hero() {
             {t("title")}
           </h1>
 
-          <p className="mb-8 text-lg text-gray-600">
+          <p className="mb-8 text-lg text-gray-100">
             {t("description")}
           </p>
 

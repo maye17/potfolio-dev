@@ -22,9 +22,28 @@
     "description": "I’m available for opportunities as a web developer, frontend developer, full stack developer, or technical product owner.",
     "button": "Contact me"
   },
-  "navbar": {
-    "home": "Home",
-    "projects": "Projects",
-    "contact": "Contact"
+"navbar": {
+  "home": "Home",
+  "about": "About",
+  "skills": "Skills",
+  "projects": "Projects",
+  "contact": "Contact"
+},
+"about": {
+  "title": "About me",
+  "p1": "I have over 12 years of experience in IT, with 8 years leading end-to-end projects, coordinating multidisciplinary teams, and ensuring high-impact deliveries.",
+  "p2": "Throughout my career, I have worked with agile methodologies such as Scrum and Kanban, as well as traditional approaches when required by the context.",
+  "p3": "I have led more than 20 web and mobile development projects, actively participating in planning, requirements definition, backlog management, KPI tracking, and stakeholder coordination.",
+  "p4": "Additionally, I have experience in system integrations, technological migrations, and continuous process improvement, allowing me to bring both strategic and technical perspectives.",
+  "p5": "My management has increased implementation effectiveness by 50% and contributed to a 5% reduction in new project losses by optimizing processes and mitigating risks strategically."
+},
+"skills": {
+  "title": "Skills",
+  "groups": {
+    "frontend": "Frontend Development",
+    "backend": "Backend Development",
+    "devops": "Infrastructure & DevOps"
   }
+}
+
 }
