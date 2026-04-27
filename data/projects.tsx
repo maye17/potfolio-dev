@@ -80,7 +80,7 @@ export const projects: Project[] = [
   },
 
   {
-    slug: "woocommerce-cma",
+    slug: "woocommerce-cm",
     title: {
       es: "E-commerce WooCommerce",
       en: "WooCommerce E-commerce",
