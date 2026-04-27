@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "role": "Full Stack Developer / Product Owner",
+    "title": "Construyo productos digitales con visión técnica y de negocio.",
+    "description": "Soy profesional en tecnología con más de 12 años de experiencia en gestión de proyectos, integración de sistemas y desarrollo de software.",
+    "projects": "Ver proyectos",
+    "contact": "Contactarme",
+     "stack": "Stack principal"
+  },
+  "projects": {
+    "featuredTitle": "Proyectos destacados",
+    "featuredDescription": "Algunos proyectos donde combino desarrollo, producto y soluciones reales de negocio.",
+    "title": "Mis proyectos",
+    "description": "Estos son algunos proyectos donde combino desarrollo, producto y soluciones reales de negocio.",
+    "detail": "Ver detalle →",
+    "features": "Funcionalidades principales",
+    "demo": "Ver demo",
+    "back": "← Volver a proyectos"
+  },
+  "contact": {
+    "title": "¿Trabajamos juntos?",
+    "description": "Estoy disponible para oportunidades como desarrolladora web, frontend, full stack o product owner técnico.",
+    "button": "Contactarme"
+  },
+  "navbar": {
+    "home": "Inicio",
+    "projects": "Mis proyectos",
+    "contact": "Contacto"
+  }
+}
