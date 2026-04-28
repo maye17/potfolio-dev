@@ -29,3 +29,11 @@ body {
 .bg-custom-gradient {
   background-image: radial-gradient(circle, #280537, #330544, #3e0551, #4a035e, #56006b) !important;
 }
+
+.bg-customer-blue {
+  background-color: #071a33 !important;
+}
+
+.bg-customer-text-blue {
+  color: #1e3a5f;
+}

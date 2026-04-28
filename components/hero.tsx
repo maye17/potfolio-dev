@@ -9,6 +9,7 @@ const skills: string[] = [
   "TypeScript",
   "JavaScript",
   "Tailwind",
+  "Java",
   "Spring Boot",
   "MariaDB",
   "Docker",

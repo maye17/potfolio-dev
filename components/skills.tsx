@@ -21,9 +21,13 @@ import {
   SiWordpress,
   SiPhp,
   SiLaravel,
+  SiVuedotjs,
+  SiGitlab,
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { Wrench, Palette, Server } from "lucide-react";
+import { VscAzureDevops } from "react-icons/vsc";
+import { IoServer } from "react-icons/io5";
 
 const skillGroups = [
   {
@@ -36,6 +40,7 @@ const skillGroups = [
       { name: "Next.js", icon: SiNextdotjs },
       { name: "HTML5", icon: SiHtml5 },
       { name: "Tailwind CSS", icon: SiTailwindcss },
+       { name: "Vue.js", icon: SiVuedotjs },
     ],
   },
   {
@@ -57,10 +62,12 @@ const skillGroups = [
     skills: [
       { name: "MySQL", icon: SiMysql },
       { name: "MariaDB", icon: SiMariadb },
+      { name: "SQLServer", icon: IoServer },
       { name: "Docker", icon: SiDocker },
       { name: "Git", icon: SiGit },
       { name: "GitHub", icon: SiGithub },
       { name: "Jira", icon: SiJira },
+      { name: "Azure DevOps", icon: VscAzureDevops },
     ],
   },
 ];

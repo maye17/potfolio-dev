@@ -26,11 +26,11 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       </div>
 
       <div className="p-6">
-        <h3 className="mb-2 text-xl font-bold">
+        <h3 className="mb-2 text-xl bg-customer-text-blue font-bold">
           {project.title[locale]}
         </h3>
 
-        <p className="mb-4 text-gray-100">
+        <p className="mb-4 text-gray-600">
           {project.description[locale]}
         </p>
 
