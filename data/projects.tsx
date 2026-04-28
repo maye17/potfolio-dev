@@ -80,39 +80,6 @@ export const projects: Project[] = [
   },
 
   {
-    slug: "woocommerce-cm",
-    title: {
-      es: "E-commerce WooCommerce",
-      en: "WooCommerce E-commerce",
-    },
-    description: {
-      es: "Personalización avanzada de tienda online. Aplicación en producción utilizada por clientes reales",
-      en: "Advanced customization of an online store. Production app used by real clients",
-    },
-    technologies: ["WordPress", "WooCommerce", "PHP", "CSS", "JavaScript"],
-    featured: true,
-    image: "/images/sistemapedidos.png",
-    demo: "#",
-    github: "#",
-    features: {
-      es: [
-        "Estados personalizados de pedidos",
-        "Carga de comprobantes de pago",
-        "Facturas descargables",
-        "Emails personalizados",
-        "Autorización de retiro de pedidos",
-      ],
-      en: [
-        "Custom order statuses",
-        "Payment proof upload",
-        "Downloadable invoices",
-        "Custom emails",
-        "Order pickup authorization",
-      ],
-    },
-  },
-
-  {
     slug: "sistema-pedidos-digitales",
     title: {
       es: "Sistema de Pedidos Online",
@@ -123,7 +90,7 @@ export const projects: Project[] = [
       en: "Digital platform for managing commercial orders and optimizing sales operations",
     },
     technologies: ["MariaDB", "Node.js", "CSS", "JavaScript"],
-    featured: false,
+    featured: true,
     image: "/images/sistemapedidos.png",
     demo: "https://clickpedido.gadbizz.com.ar/",
     github: "#",
@@ -141,6 +108,39 @@ export const projects: Project[] = [
         "Portal invoices",
         "Automated emails",
         "Pickup authorization",
+      ],
+    },
+  },
+
+    {
+    slug: "woocommerce-cm",
+    title: {
+      es: "E-commerce WooCommerce",
+      en: "WooCommerce E-commerce",
+    },
+    description: {
+      es: "Personalización avanzada de tienda online. Aplicación en producción utilizada por clientes reales",
+      en: "Advanced customization of an online store. Production app used by real clients",
+    },
+    technologies: ["WordPress", "WooCommerce", "PHP", "CSS", "JavaScript"],
+    featured: false,
+    image: "/images/cma.png",
+    demo: "#",
+    github: "#",
+    features: {
+      es: [
+        "Estados personalizados de pedidos",
+        "Carga de comprobantes de pago",
+        "Facturas descargables",
+        "Emails personalizados",
+        "Autorización de retiro de pedidos",
+      ],
+      en: [
+        "Custom order statuses",
+        "Payment proof upload",
+        "Downloadable invoices",
+        "Custom emails",
+        "Order pickup authorization",
       ],
     },
   },
