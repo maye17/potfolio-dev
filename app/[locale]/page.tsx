@@ -7,6 +7,7 @@ import { getTranslations } from "next-intl/server";
 import About from "@/components/about";
 import Skills from "@/components/skills";
 
+
 export default async function HomePage() {
   const tProjects = await getTranslations("projects");
   const tContact = await getTranslations("contact");
@@ -17,6 +18,7 @@ export default async function HomePage() {
     <>
       <Hero />
       <About />
+
       <Skills />
 
       <section className="mx-auto max-w-6xl px-6 py-20">

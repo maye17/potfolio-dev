@@ -44,6 +44,10 @@
     "backend": "Backend Development",
     "devops": "Infrastructure & DevOps"
   }
+},
+"video": {
+  "title": "Intro video",
+  "description": "Learn more about my experience, projects, and way of working."
 }
 
 }

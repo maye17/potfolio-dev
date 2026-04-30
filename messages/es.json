@@ -45,5 +45,9 @@
     "devops": "Infraestructura & DevOps"
   }
 
+},
+"video": {
+  "title": "Video presentación",
+  "description": "Conoce un poco más sobre mi experiencia, mis proyectos y mi forma de trabajar."
 }
 }
