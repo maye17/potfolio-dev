@@ -10,6 +10,8 @@ export type Project = {
   demo: string;
   github: string;
   features: Record<Locale, string[]>;
+  gallery?: { label: Record<Locale, string>; image: string }[];
+  steps?: Record<Locale, string[]>;
 };
 
 export const projects: Project[] = [
@@ -112,7 +114,7 @@ export const projects: Project[] = [
     },
   },
 
-    {
+  {
     slug: "woocommerce-cm",
     title: {
       es: "E-commerce WooCommerce",
@@ -172,6 +174,61 @@ export const projects: Project[] = [
         "Lead management",
         "Digital channel integration",
         "Conversion optimization",
+      ],
+    },
+  },
+
+  {
+    slug: "ai-customer-inquiry-automation",
+    title: {
+      es: "AI Customer Inquiry Automation Platform",
+      en: "AI Customer Inquiry Automation Platform",
+    },
+    description: {
+      es: "Automatización inteligente con n8n y Google Gemini que clasifica consultas de clientes, analiza el sentimiento y ejecuta acciones según la intención detectada.",
+      en: "Intelligent automation built with n8n and Google Gemini that classifies customer inquiries, analyzes sentiment, and triggers actions based on detected intent.",
+    },
+    technologies: ["n8n", "Google Gemini", "Gmail API", "Slack API", "Google Sheets", "Docker"],
+    featured: true,
+    image: "/images/workflow.png",
+    demo: "#",
+    github: "#",
+    features: {
+      es: [
+        "Clasificación automática mediante IA",
+        "Análisis de sentimiento",
+        "Integración con Gmail y Slack",
+        "Registro en Google Sheets",
+        "Automatización de seguimientos",
+      ],
+      en: [
+        "AI-powered automatic classification",
+        "Sentiment analysis",
+        "Gmail and Slack integration",
+        "Logging to Google Sheets",
+        "Automated follow-ups",
+      ],
+    },
+    gallery: [
+      {
+        label: { es: "Arquitectura", en: "Architecture" },
+        image: "/images/ai-automation-architecture.png",
+      },
+      {
+        label: { es: "Workflow", en: "Workflow" },
+        image: "/images/workflow.png",
+      },
+    ],
+    steps: {
+      es: [
+        "docker compose up -d",
+        "Importar el workflow en n8n",
+        "Configurar las credenciales (Gemini, Gmail, Slack, Google Sheets)",
+      ],
+      en: [
+        "docker compose up -d",
+        "Import the workflow into n8n",
+        "Configure credentials (Gemini, Gmail, Slack, Google Sheets)",
       ],
     },
   },

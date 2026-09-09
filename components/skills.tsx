@@ -23,6 +23,7 @@ import {
   SiLaravel,
   SiVuedotjs,
   SiGitlab,
+
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { Wrench, Palette, Server } from "lucide-react";
@@ -41,6 +42,7 @@ const skillGroups = [
       { name: "HTML5", icon: SiHtml5 },
       { name: "Tailwind CSS", icon: SiTailwindcss },
        { name: "Vue.js", icon: SiVuedotjs },
+       { name: "GitLab", icon: SiGitlab },
     ],
   },
   {
