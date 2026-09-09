@@ -20,6 +20,7 @@ export default function Navbar() {
   const projectsHref = isSpanish ? "/projects" : "/en/projects";
   const contactHref = isSpanish ? "/#contacto" : "/en#contacto";
   const aboutHref = isSpanish ? "/#sobre-mi" : "/en#sobre-mi";
+  const projectManagersHref = isSpanish ? "/project-managers" : "/en/project-managers";
   const skillsHref = isSpanish ? "/#habilidades" : "/en#habilidades";
 
   const switchHref = isSpanish
@@ -40,23 +41,22 @@ export default function Navbar() {
           <Link href={homeHref} className="text-sm font-medium text-white">
             {t("home")}
           </Link>
-
           <Link href={aboutHref} className="text-sm font-medium text-white">
             {t("about")}
           </Link>
-
           <Link href={skillsHref} className="text-sm font-medium text-white">
             {t("skills")}
           </Link>
-
           <Link href={projectsHref} className="text-sm font-medium text-white">
             {t("projects")}
+          </Link>
+          <Link href={projectManagersHref} className="text-sm font-medium text-white">
+            {t("projectManagers")}
           </Link>
 
           <Link href={contactHref} className="text-sm font-medium text-white">
             {t("contact")}
           </Link>
-
           <Link
             href={switchHref}
             className="rounded-lg border border-white px-3 py-1 text-sm font-semibold text-white transition hover:bg-white hover:text-black"
@@ -87,7 +87,6 @@ export default function Navbar() {
             >
               {t("home")}
             </Link>
-
             <Link
               href={aboutHref}
               onClick={closeMenu}
@@ -110,6 +109,14 @@ export default function Navbar() {
               className="text-sm font-medium text-white"
             >
               {t("projects")}
+            </Link>
+
+            <Link
+              href={projectManagersHref}
+              onClick={closeMenu}
+              className="text-sm font-medium text-white"
+            >
+              {t("projectManagers")}
             </Link>
 
             <Link

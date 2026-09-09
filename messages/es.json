@@ -27,6 +27,7 @@
   "about": "Sobre mí",
   "skills": "Habilidades",
   "projects": "Mis proyectos",
+  "projectManagers": "PM / PO",
   "contact": "Contacto"
 },
 "about": {
@@ -46,6 +47,39 @@
   }
 
 },
+  "pm": {
+    "title": "Project Management & Product Ownership",
+    "summary": "Líder de productos y proyectos digitales con más de 12 años en IT y 8+ liderando iniciativas end-to-end. Especializada en gestión de producto, metodologías ágiles y coordinación de equipos multidisciplinarios, con foco en entregas de alto impacto.",
+    "methodologiesTitle": "Metodologías & Frameworks",
+    "methodologies": ["Scrum", "Kanban", "Agile", "Product Discovery", "Gestión de Backlog", "ASI-IS", "TO BE", "OKRs & KPIs"],
+    "expertiseTitle": "Áreas de expertise",
+    "expertise": [
+      { "title": "Gestión de producto y roadmap", "desc": "Definición de visión, roadmap y priorización orientada al valor de negocio." },
+      { "title": "Gestión de backlog", "desc": "Refinamiento, estimación y priorización continua junto a los equipos de desarrollo." },
+      { "title": "Coordinación de stakeholders", "desc": "Alineación entre negocio, tecnología y usuarios para asegurar objetivos comunes." },
+      { "title": "Métricas y KPIs", "desc": "Definición y seguimiento de indicadores para la toma de decisiones basada en datos." },
+      { "title": "Integraciones y migraciones", "desc": "Liderazgo en integraciones de sistemas y migraciones tecnológicas end-to-end." },
+      { "title": "Mejora continua", "desc": "Optimización de procesos y mitigación de riesgos bajo un enfoque ágil." }
+    ],
+    "achievementsTitle": "Certificaciones",
+    "achievementsTitle": "Logros",
+    "achievements": [
+      { "value": "+50%", "label": "en efectividad de implementaciones" },
+      { "value": "-8%", "label": "en pérdida de nuevos proyectos" },
+      { "value": "20+", "label": "proyectos web y móvil liderados" }
+    ],
+    "certificationsTitle": "Certificaciones",
+    "certifications": [
+      { "name": "Certified Product Owner (PO)", "issuer": "Certiprof", "year": "2022" },
+      { "name": "Certificación Kanban", "issuer": "Certiprof", "year": "2022" },
+      { "name": "Microsoft Azure DevOps Solutions (AZ-400)", "issuer": "IT College", "year": "" }
+    ],
+    "educationTitle": "Formación",
+    "education": [
+      { "name": "Máster en Inteligencia Artificial", "issuer": "CEUPE – European Business School", "year": "En curso" },
+      { "name": "Posgrado: Principios de Interoperabilidad y Estándares en Salud", "issuer": "Universidad del Hospital Italiano de Buenos Aires", "year": "Finalizado" }
+    ]
+  },
 "video": {
   "title": "Video presentación",
   "description": "Conoce un poco más sobre mi experiencia, mis proyectos y mi forma de trabajar."

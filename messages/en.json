@@ -27,6 +27,7 @@
   "about": "About",
   "skills": "Skills",
   "projects": "Projects",
+  "projectManagers": "PM / PO",
   "contact": "Contact"
 },
 "about": {
@@ -45,6 +46,38 @@
     "devops": "Infrastructure & DevOps"
   }
 },
+  "pm": {
+    "title": "Project Management & Product Ownership",
+    "summary": "Digital product and project leader with 12+ years in IT and 8+ leading end-to-end initiatives. Specialized in product management, agile methodologies and cross-functional team coordination, focused on high-impact deliveries.",
+    "methodologiesTitle": "Methodologies & Frameworks",
+    "methodologies": ["Scrum", "Kanban", "Agile", "Product Discovery", "Backlog Management","AS-IS","TO BE", "OKRs & KPIs"],
+    "expertiseTitle": "Areas of expertise",
+    "expertise": [
+      { "title": "Product management & roadmap", "desc": "Vision definition, roadmap and value-driven prioritization." },
+      { "title": "Backlog management", "desc": "Continuous refinement, estimation and prioritization with dev teams." },
+      { "title": "Stakeholder coordination", "desc": "Alignment across business, technology and users toward shared goals." },
+      { "title": "Metrics & KPIs", "desc": "Definition and tracking of indicators for data-driven decision making." },
+      { "title": "Integrations & migrations", "desc": "Leading system integrations and end-to-end technology migrations." },
+      { "title": "Continuous improvement", "desc": "Process optimization and risk mitigation under an agile approach." }
+    ],
+    "achievementsTitle": "Achievements",
+    "achievements": [
+      { "value": "+50%", "label": "in implementation effectiveness" },
+      { "value": "-8%", "label": "reduction in new-project loss" },
+      { "value": "20+", "label": "web & mobile projects led" }
+    ],
+    "certificationsTitle": "Certifications",
+    "certifications": [
+      { "name": "Certified Product Owner (PO)", "issuer": "Certiprof", "year": "2022" },
+      { "name": "Kanban Certification", "issuer": "Certiprof", "year": "2022" },
+      { "name": "Microsoft Azure DevOps Solutions (AZ-400)", "issuer": "IT College", "year": "" }
+    ],
+    "educationTitle": "Education",
+    "education": [
+      { "name": "Master in Artificial Intelligence", "issuer": "CEUPE – European Business School", "year": "In progress" },
+      { "name": "Postgraduate: Principles of Interoperability and Health Standards", "issuer": "University Hospital Italiano de Buenos Aires", "year": "Finalized" }
+    ]
+  },
 "video": {
   "title": "Intro video",
   "description": "Learn more about my experience, projects, and way of working."

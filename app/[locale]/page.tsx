@@ -8,6 +8,7 @@ import About from "@/components/about";
 import Skills from "@/components/skills";
 
 
+
 export default async function HomePage() {
   const tProjects = await getTranslations("projects");
   const tContact = await getTranslations("contact");
@@ -20,7 +21,6 @@ export default async function HomePage() {
       <About />
 
       <Skills />
-
       <section className="mx-auto max-w-6xl px-6 py-20">
         <h2 className="mb-4 text-3xl font-bold">
           {tProjects("featuredTitle")}
@@ -36,6 +36,7 @@ export default async function HomePage() {
           ))}
         </div>
       </section>
+      
 
       <section id="contacto" className="bg-blue-700 py-20 text-white">
         <div className="mx-auto max-w-4xl px-6 text-center">
