@@ -113,6 +113,38 @@ export const projects: Project[] = [
       ],
     },
   },
+   {
+    slug: "Aplicación de seguimiento y trazabilidad de proyectos",
+    title: {
+      es: "Traceup - Aplicación de seguimiento y trazabilidad de proyectos",
+      en: "Traceup - Project Tracking and Traceability App",
+    },
+    description: {
+      es: "Aplicación web para el seguimiento y trazabilidad de proyectos, permitiendo a los usuarios registrar, actualizar y monitorear el progreso de sus proyectos en tiempo real.",
+      en: "Web application for project tracking and traceability, allowing users to register, update, and monitor the progress of their projects in real-time.",
+    },
+    technologies: ["MariaDB", "React", "Tailwind", "Node.js", "Express"],
+    featured: true,
+    image: "/images/traceup.png",
+    demo: "https://traceup-chi.vercel.app/login",
+    github: "#",
+    features: {
+      es: [
+        "Gestión y seguimiento de proyectos",
+        "Monitoreo del progreso en tiempo real",
+        "Trazabilidad de actividades y cambios",
+        "Registro y actualización de avances",
+        "Historial de seguimiento por proyecto",
+      ],
+      en: [
+        "Project management and tracking",
+        "Real-time progress monitoring",
+        "Activity and change traceability",
+        "Progress registration and updates",
+        "Project tracking history",
+      ],
+    },
+  },
 
   {
     slug: "woocommerce-cm",
@@ -126,8 +158,8 @@ export const projects: Project[] = [
     },
     technologies: ["WordPress", "WooCommerce", "PHP", "CSS", "JavaScript"],
     featured: false,
-    image: "/images/cma.png",
-    demo: "#",
+    image: "/images/cma-web.png",
+    demo: "https://casademoneda.com.ar/",
     github: "#",
     features: {
       es: [
